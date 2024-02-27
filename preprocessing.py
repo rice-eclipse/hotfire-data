@@ -39,7 +39,7 @@ def import_data(dir: str,
     contents = np.load(f"{dir}/data.npz")
     labels = contents["labels"]
     data = contents["data"]
-    last_valid_time = events[-1]["secs"]
+    last_valid_time = float(events[-1]["secs"])
 
     for i, sample in enumerate(contents["data"]):
         if float(sample[0]) > last_valid_time:

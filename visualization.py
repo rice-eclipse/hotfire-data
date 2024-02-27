@@ -38,6 +38,7 @@ class EventPlotter:
              title: str = '',
              xlabel: str = "Elapsed Time (sec)",
              ylabel: str = '',
+             legend: str = "Raw",
              num_xticks: int = 6,
              dif_yticks: float = 100,
              color: str = "tab:blue"
@@ -51,7 +52,7 @@ class EventPlotter:
         data_event = self._data[sample_start : sample_end, sensor_id]
 
         plt.figure(dpi=self._dpi)
-        plt.plot(times_event, data_event, label="Raw", c=color)
+        plt.plot(times_event, data_event, label=legend, c=color)
         if filter is not None:
             plt.plot(times_event[filter._length : -filter._length],
                      filter.apply(data_event)[filter._length : -filter._length],
@@ -67,4 +68,21 @@ class EventPlotter:
         plt.ylim((ymin, ymax))
         plt.yticks(yticks)
 
-        plt.show()
+
+    def add_curve(self,
+                  sensor_id: int,
+                  event_id: int,
+                  duration: float,
+                  legend: str = '',
+                  color: str = "tab:orange"
+                  ) -> None:
+        time_start = float(self._events[event_id]["secs"])
+        time_end = time_start + duration
+        sample_start = nearest_sample(self._data, time_start)
+        sample_end = nearest_sample(self._data, time_end)
+
+        times_event = [t - time_start for t in self._times[sample_start : sample_end]]
+        data_event = self._data[sample_start : sample_end, sensor_id]
+
+        plt.plot(times_event, data_event, label=legend, c=color)
+        plt.legend()

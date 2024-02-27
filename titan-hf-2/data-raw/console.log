@@ -1,0 +1,69 @@
+2024-02-24 10:47:04 [INFO]: Initializing slonkboard
+2024-02-24 10:47:05 [INFO]: Connecting to 192.168.0.100:2707
+2024-02-24 10:47:05 [INFO]: Connection established to controller.
+2024-02-24 10:47:05 [INFO]: Received new configuration from dashboard.
+2024-02-24 10:47:05 [INFO]: Sensor output is logged in a new directory: logs/2024-2-24_10-47-5/
+2024-02-24 10:47:05 [INFO]: Created log file logs/sensor/2024-2-24_10-47-5/TC1 Oxidizer tank.log
+2024-02-24 10:47:05 [INFO]: Created log file logs/sensor/2024-2-24_10-47-5/TC2 Combustion chamber.log
+2024-02-24 10:47:05 [INFO]: Created log file logs/sensor/2024-2-24_10-47-5/PT1 Combustion chamber.log
+2024-02-24 10:47:05 [INFO]: Created log file logs/sensor/2024-2-24_10-47-5/PT2 Feedline.log
+2024-02-24 10:47:05 [INFO]: Created log file logs/sensor/2024-2-24_10-47-5/PT3 Injector.log
+2024-02-24 10:47:05 [INFO]: Created log file logs/sensor/2024-2-24_10-47-5/PT4 Oxidizer tank.log
+2024-02-24 10:47:05 [INFO]: Created log file logs/sensor/2024-2-24_10-47-5/Main axial cell.log
+2024-02-24 10:51:08 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-02-24 10:51:17 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-02-24 10:51:36 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2024-02-24 10:52:19 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2024-02-24 10:52:25 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2024-02-24 10:52:29 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2024-02-24 10:52:38 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":true} to controller.
+2024-02-24 10:52:44 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":false} to controller.
+2024-02-24 10:53:04 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2024-02-24 10:54:24 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-02-24 10:54:32 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-02-24 10:57:33 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-02-24 10:57:40 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-02-24 10:59:16 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-02-24 10:59:23 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-02-24 11:04:56 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2024-02-24 11:06:09 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2024-02-24 11:11:07 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-02-24 11:11:17 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2024-02-24 11:11:32 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-02-24 11:11:38 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2024-02-24 11:42:36 [INFO]: Connection to controller closed.
+2024-02-24 11:43:11 [INFO]: Connecting to 192.168.0.100:2707
+2024-02-24 11:43:11 [INFO]: Connection established to controller.
+2024-02-24 11:43:11 [INFO]: Received new configuration from dashboard.
+2024-02-24 11:43:31 [INFO]: Initializing slonkboard
+2024-02-24 11:43:54 [INFO]: Connecting to 192.168.0.100:2707
+2024-02-24 11:43:54 [INFO]: Connection established to controller.
+2024-02-24 11:43:54 [INFO]: Received new configuration from dashboard.
+2024-02-24 11:43:54 [INFO]: Sensor output is logged in a new directory: logs/2024-2-24_11-43-54/
+2024-02-24 11:43:54 [INFO]: Created log file logs/sensor/2024-2-24_11-43-54/TC1 Oxidizer tank.log
+2024-02-24 11:43:54 [INFO]: Created log file logs/sensor/2024-2-24_11-43-54/TC2 Combustion chamber.log
+2024-02-24 11:43:54 [INFO]: Created log file logs/sensor/2024-2-24_11-43-54/PT1 Combustion chamber.log
+2024-02-24 11:43:54 [INFO]: Created log file logs/sensor/2024-2-24_11-43-54/PT2 Feedline.log
+2024-02-24 11:43:54 [INFO]: Created log file logs/sensor/2024-2-24_11-43-54/PT3 Injector.log
+2024-02-24 11:43:54 [INFO]: Created log file logs/sensor/2024-2-24_11-43-54/PT4 Oxidizer tank.log
+2024-02-24 11:43:54 [INFO]: Created log file logs/sensor/2024-2-24_11-43-54/Main axial cell.log
+2024-02-24 11:59:55 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":true} to controller.
+2024-02-24 12:00:10 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-02-24 12:03:54 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":false} to controller.
+2024-02-24 12:20:12 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-02-24 12:22:17 [WARN]: -10 seconds until ignition
+2024-02-24 12:22:18 [WARN]: -9 seconds until ignition
+2024-02-24 12:22:19 [WARN]: -8 seconds until ignition
+2024-02-24 12:22:20 [WARN]: -7 seconds until ignition
+2024-02-24 12:22:21 [WARN]: -6 seconds until ignition
+2024-02-24 12:22:22 [WARN]: -5 seconds until ignition
+2024-02-24 12:22:23 [WARN]: -4 seconds until ignition
+2024-02-24 12:22:24 [WARN]: -3 seconds until ignition
+2024-02-24 12:22:25 [WARN]: -2 seconds until ignition
+2024-02-24 12:22:26 [WARN]: -1 seconds until ignition
+2024-02-24 12:22:27 [WARN]: 0 seconds until ignition
+2024-02-24 12:22:27 [WARN]: Igniting.
+2024-02-24 12:22:27 [INFO]: Sent command {"type":"Ignition"} to controller.
+2024-02-24 12:32:03 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2024-02-24 12:32:15 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-02-24 12:34:07 [INFO]: Connection to controller closed.

@@ -1,0 +1,67 @@
+2023-12-09 10:21:07 [INFO]: Initializing slonkboard
+2023-12-09 10:21:08 [INFO]: Connecting to 192.168.1.114:2707
+2023-12-09 10:21:08 [INFO]: Connection established to controller.
+2023-12-09 10:21:08 [INFO]: Received new configuration from dashboard.
+2023-12-09 10:21:08 [ERROR]: Unrecognized message type {"sensors":[0,0,0,0],"states":[0,0,0,0],"console":"data","timestamp":""}
+2023-12-09 10:21:08 [INFO]: Sensor output is logged in a new directory: logs/2023-12-9_10-21-8/
+2023-12-09 10:21:08 [INFO]: Created log file logs/sensor/2023-12-9_10-21-8/TC1 Oxidizer tank.log
+2023-12-09 10:21:08 [INFO]: Created log file logs/sensor/2023-12-9_10-21-8/TC2 Combustion chamber.log
+2023-12-09 10:21:08 [INFO]: Created log file logs/sensor/2023-12-9_10-21-8/PT1 Combustion chamber.log
+2023-12-09 10:21:08 [INFO]: Created log file logs/sensor/2023-12-9_10-21-8/PT2 Feedline.log
+2023-12-09 10:21:08 [INFO]: Created log file logs/sensor/2023-12-9_10-21-8/PT3 Injector.log
+2023-12-09 10:21:08 [INFO]: Created log file logs/sensor/2023-12-9_10-21-8/PT4 Oxidizer tank.log
+2023-12-09 10:21:08 [INFO]: Created log file logs/sensor/2023-12-9_10-21-8/Main axial cell.log
+2023-12-09 10:23:46 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2023-12-09 10:24:09 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2023-12-09 10:24:19 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2023-12-09 10:24:24 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2023-12-09 10:24:34 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":true} to controller.
+2023-12-09 10:24:39 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":false} to controller.
+2023-12-09 10:24:50 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2023-12-09 10:37:48 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":true} to controller.
+2023-12-09 10:38:00 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2023-12-09 10:41:45 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":false} to controller.
+2023-12-09 10:42:54 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2023-12-09 10:44:35 [WARN]: -10 seconds until ignition
+2023-12-09 10:44:36 [WARN]: -9 seconds until ignition
+2023-12-09 10:44:37 [WARN]: -8 seconds until ignition
+2023-12-09 10:44:38 [WARN]: -7 seconds until ignition
+2023-12-09 10:44:39 [WARN]: -6 seconds until ignition
+2023-12-09 10:44:40 [WARN]: -5 seconds until ignition
+2023-12-09 10:44:41 [WARN]: -4 seconds until ignition
+2023-12-09 10:44:42 [WARN]: -3 seconds until ignition
+2023-12-09 10:44:43 [WARN]: -2 seconds until ignition
+2023-12-09 10:44:44 [WARN]: -1 seconds until ignition
+2023-12-09 10:44:45 [WARN]: 0 seconds until ignition
+2023-12-09 10:44:45 [WARN]: Igniting.
+2023-12-09 10:44:45 [INFO]: Sent command {"type":"Ignition"} to controller.
+2023-12-09 10:46:36 [WARN]: -10 seconds until ignition
+2023-12-09 10:46:37 [WARN]: -9 seconds until ignition
+2023-12-09 10:46:38 [WARN]: -8 seconds until ignition
+2023-12-09 10:46:39 [WARN]: -7 seconds until ignition
+2023-12-09 10:46:40 [WARN]: -6 seconds until ignition
+2023-12-09 10:46:41 [WARN]: -5 seconds until ignition
+2023-12-09 10:46:42 [WARN]: -4 seconds until ignition
+2023-12-09 10:46:43 [WARN]: -3 seconds until ignition
+2023-12-09 10:46:44 [WARN]: -2 seconds until ignition
+2023-12-09 10:46:45 [WARN]: -1 seconds until ignition
+2023-12-09 10:46:46 [WARN]: 0 seconds until ignition
+2023-12-09 10:46:46 [WARN]: Igniting.
+2023-12-09 10:46:46 [INFO]: Sent command {"type":"Ignition"} to controller.
+2023-12-09 10:47:53 [WARN]: -10 seconds until ignition
+2023-12-09 10:47:54 [WARN]: -9 seconds until ignition
+2023-12-09 10:47:55 [WARN]: -8 seconds until ignition
+2023-12-09 10:47:56 [WARN]: -7 seconds until ignition
+2023-12-09 10:47:57 [WARN]: -6 seconds until ignition
+2023-12-09 10:47:58 [WARN]: -5 seconds until ignition
+2023-12-09 10:47:59 [WARN]: -4 seconds until ignition
+2023-12-09 10:48:00 [WARN]: -3 seconds until ignition
+2023-12-09 10:48:01 [WARN]: -2 seconds until ignition
+2023-12-09 10:48:02 [WARN]: -1 seconds until ignition
+2023-12-09 10:48:03 [WARN]: 0 seconds until ignition
+2023-12-09 10:48:03 [WARN]: Igniting.
+2023-12-09 10:48:03 [INFO]: Sent command {"type":"Ignition"} to controller.
+2023-12-09 10:52:40 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2023-12-09 10:58:24 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2023-12-09 11:02:56 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2023-12-09 11:03:05 [INFO]: Connection to controller closed.

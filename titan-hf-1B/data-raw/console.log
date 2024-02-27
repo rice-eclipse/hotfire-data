@@ -1,0 +1,62 @@
+2023-12-09 16:41:22 [INFO]: Initializing slonkboard
+2023-12-09 16:41:24 [INFO]: Connecting to 192.168.1.114:2707
+2023-12-09 16:41:24 [INFO]: Connection established to controller.
+2023-12-09 16:41:24 [INFO]: Received new configuration from dashboard.
+2023-12-09 16:41:24 [INFO]: Sensor output is logged in a new directory: logs/2023-12-9_16-41-24/
+2023-12-09 16:41:24 [INFO]: Created log file logs/sensor/2023-12-9_16-41-24/TC1 Oxidizer tank.log
+2023-12-09 16:41:24 [INFO]: Created log file logs/sensor/2023-12-9_16-41-24/TC2 Combustion chamber.log
+2023-12-09 16:41:24 [INFO]: Created log file logs/sensor/2023-12-9_16-41-24/PT1 Combustion chamber.log
+2023-12-09 16:41:24 [INFO]: Created log file logs/sensor/2023-12-9_16-41-24/PT2 Feedline.log
+2023-12-09 16:41:24 [INFO]: Created log file logs/sensor/2023-12-9_16-41-24/PT3 Injector.log
+2023-12-09 16:41:24 [INFO]: Created log file logs/sensor/2023-12-9_16-41-24/PT4 Oxidizer tank.log
+2023-12-09 16:41:24 [INFO]: Created log file logs/sensor/2023-12-9_16-41-24/Main axial cell.log
+2023-12-09 16:45:48 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2023-12-09 16:45:53 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2023-12-09 16:45:59 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2023-12-09 16:46:04 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2023-12-09 16:46:10 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":true} to controller.
+2023-12-09 16:46:15 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":false} to controller.
+2023-12-09 16:46:26 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2023-12-09 16:55:53 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":true} to controller.
+2023-12-09 16:56:04 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2023-12-09 16:57:52 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":false} to controller.
+2023-12-09 17:05:16 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2023-12-09 17:05:35 [INFO]: Initializing slonkboard
+2023-12-09 17:05:37 [INFO]: Connecting to 192.168.1.114:2707
+2023-12-09 17:05:37 [INFO]: Connection established to controller.
+2023-12-09 17:05:37 [INFO]: Received new configuration from dashboard.
+2023-12-09 17:05:37 [INFO]: Sensor output is logged in a new directory: logs/2023-12-9_17-5-37/
+2023-12-09 17:05:37 [INFO]: Created log file logs/sensor/2023-12-9_17-5-37/TC1 Oxidizer tank.log
+2023-12-09 17:05:37 [INFO]: Created log file logs/sensor/2023-12-9_17-5-37/TC2 Combustion chamber.log
+2023-12-09 17:05:37 [INFO]: Created log file logs/sensor/2023-12-9_17-5-37/PT1 Combustion chamber.log
+2023-12-09 17:05:37 [INFO]: Created log file logs/sensor/2023-12-9_17-5-37/PT2 Feedline.log
+2023-12-09 17:05:37 [INFO]: Created log file logs/sensor/2023-12-9_17-5-37/PT3 Injector.log
+2023-12-09 17:05:37 [INFO]: Created log file logs/sensor/2023-12-9_17-5-37/PT4 Oxidizer tank.log
+2023-12-09 17:05:37 [INFO]: Created log file logs/sensor/2023-12-9_17-5-37/Main axial cell.log
+2023-12-09 17:09:56 [WARN]: -10 seconds until ignition
+2023-12-09 17:09:57 [WARN]: -9 seconds until ignition
+2023-12-09 17:09:58 [WARN]: -8 seconds until ignition
+2023-12-09 17:09:59 [WARN]: -7 seconds until ignition
+2023-12-09 17:10:00 [WARN]: -6 seconds until ignition
+2023-12-09 17:10:01 [WARN]: -5 seconds until ignition
+2023-12-09 17:10:02 [WARN]: -4 seconds until ignition
+2023-12-09 17:10:03 [WARN]: -3 seconds until ignition
+2023-12-09 17:10:04 [WARN]: -2 seconds until ignition
+2023-12-09 17:10:05 [WARN]: -1 seconds until ignition
+2023-12-09 17:10:06 [WARN]: 0 seconds until ignition
+2023-12-09 17:10:06 [WARN]: Igniting.
+2023-12-09 17:10:06 [INFO]: Sent command {"type":"Ignition"} to controller.
+2023-12-09 17:15:38 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2023-12-09 17:16:21 [INFO]: Connecting to 192.168.1.114:2707
+2023-12-09 17:16:21 [INFO]: Connection established to controller.
+2023-12-09 17:16:22 [INFO]: Received new configuration from dashboard.
+2023-12-09 17:16:22 [INFO]: Sensor output is logged in a new directory: logs/2023-12-9_17-16-22/
+2023-12-09 17:16:22 [INFO]: Created log file logs/sensor/2023-12-9_17-16-22/TC1 Oxidizer tank.log
+2023-12-09 17:16:22 [INFO]: Created log file logs/sensor/2023-12-9_17-16-22/TC2 Combustion chamber.log
+2023-12-09 17:16:22 [INFO]: Created log file logs/sensor/2023-12-9_17-16-22/PT1 Combustion chamber.log
+2023-12-09 17:16:22 [INFO]: Created log file logs/sensor/2023-12-9_17-16-22/PT2 Feedline.log
+2023-12-09 17:16:22 [INFO]: Created log file logs/sensor/2023-12-9_17-16-22/PT3 Injector.log
+2023-12-09 17:16:22 [INFO]: Created log file logs/sensor/2023-12-9_17-16-22/PT4 Oxidizer tank.log
+2023-12-09 17:16:22 [INFO]: Created log file logs/sensor/2023-12-9_17-16-22/Main axial cell.log
+2023-12-09 17:17:14 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2023-12-09 17:18:56 [INFO]: Connection to controller closed.

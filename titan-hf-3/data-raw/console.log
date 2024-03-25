@@ -1,0 +1,192 @@
+2024-03-24 11:24:58 [INFO]: Initializing slonkboard
+2024-03-24 11:25:03 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 11:25:24 [INFO]: Connection to controller closed.
+2024-03-24 11:25:44 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 11:26:05 [INFO]: Connection to controller closed.
+2024-03-24 11:26:13 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 11:26:34 [INFO]: Connection to controller closed.
+2024-03-24 11:29:24 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 11:29:24 [INFO]: Connection established to controller.
+2024-03-24 11:29:24 [INFO]: Received new configuration from dashboard.
+2024-03-24 11:29:24 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_11-29-24/
+2024-03-24 11:29:24 [INFO]: Created log file logs/sensor/2024-3-24_11-29-24/TC1 Oxidizer tank.log
+2024-03-24 11:29:24 [INFO]: Created log file logs/sensor/2024-3-24_11-29-24/TC2 Combustion chamber.log
+2024-03-24 11:29:24 [INFO]: Created log file logs/sensor/2024-3-24_11-29-24/PT1 Combustion chamber.log
+2024-03-24 11:29:24 [INFO]: Created log file logs/sensor/2024-3-24_11-29-24/PT2 Feedline.log
+2024-03-24 11:29:24 [INFO]: Created log file logs/sensor/2024-3-24_11-29-24/PT3 Injector.log
+2024-03-24 11:29:24 [INFO]: Created log file logs/sensor/2024-3-24_11-29-24/PT4 Oxidizer tank.log
+2024-03-24 11:29:24 [INFO]: Created log file logs/sensor/2024-3-24_11-29-24/Main axial cell.log
+2024-03-24 11:33:57 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-03-24 11:34:07 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-03-24 11:34:16 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":true} to controller.
+2024-03-24 11:34:24 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":false} to controller.
+2024-03-24 11:34:31 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2024-03-24 11:34:38 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2024-03-24 11:34:56 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2024-03-24 11:36:17 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-03-24 11:36:23 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-03-24 11:37:33 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-03-24 11:37:38 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-03-24 11:40:07 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-03-24 11:40:12 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-03-24 11:42:28 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-03-24 11:42:34 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2024-03-24 11:42:48 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-03-24 11:42:52 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2024-03-24 11:44:32 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2024-03-24 11:44:35 [INFO]: Connection to controller closed.
+2024-03-24 12:05:21 [INFO]: Initializing slonkboard
+2024-03-24 12:06:09 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 12:06:25 [INFO]: Connection established to controller.
+2024-03-24 12:06:30 [INFO]: Received new configuration from dashboard.
+2024-03-24 12:06:30 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_12-6-30/
+2024-03-24 12:06:30 [INFO]: Created log file logs/sensor/2024-3-24_12-6-30/TC1 Oxidizer tank.log
+2024-03-24 12:06:30 [INFO]: Created log file logs/sensor/2024-3-24_12-6-30/TC2 Combustion chamber.log
+2024-03-24 12:06:30 [INFO]: Created log file logs/sensor/2024-3-24_12-6-30/PT1 Combustion chamber.log
+2024-03-24 12:06:30 [INFO]: Created log file logs/sensor/2024-3-24_12-6-30/PT2 Feedline.log
+2024-03-24 12:06:30 [INFO]: Created log file logs/sensor/2024-3-24_12-6-30/PT3 Injector.log
+2024-03-24 12:06:30 [INFO]: Created log file logs/sensor/2024-3-24_12-6-30/PT4 Oxidizer tank.log
+2024-03-24 12:06:30 [INFO]: Created log file logs/sensor/2024-3-24_12-6-30/Main axial cell.log
+2024-03-24 12:09:34 [INFO]: Initializing slonkboard
+2024-03-24 12:09:35 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 12:09:35 [INFO]: Connection established to controller.
+2024-03-24 12:09:38 [INFO]: Received new configuration from dashboard.
+2024-03-24 12:09:38 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_12-9-38/
+2024-03-24 12:09:38 [INFO]: Created log file logs/sensor/2024-3-24_12-9-38/TC1 Oxidizer tank.log
+2024-03-24 12:09:38 [INFO]: Created log file logs/sensor/2024-3-24_12-9-38/TC2 Combustion chamber.log
+2024-03-24 12:09:38 [INFO]: Created log file logs/sensor/2024-3-24_12-9-38/PT1 Combustion chamber.log
+2024-03-24 12:09:38 [INFO]: Created log file logs/sensor/2024-3-24_12-9-38/PT2 Feedline.log
+2024-03-24 12:09:38 [INFO]: Created log file logs/sensor/2024-3-24_12-9-38/PT3 Injector.log
+2024-03-24 12:09:38 [INFO]: Created log file logs/sensor/2024-3-24_12-9-38/PT4 Oxidizer tank.log
+2024-03-24 12:09:38 [INFO]: Created log file logs/sensor/2024-3-24_12-9-38/Main axial cell.log
+2024-03-24 12:10:09 [INFO]: Initializing slonkboard
+2024-03-24 12:10:12 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 12:10:12 [INFO]: Connection established to controller.
+2024-03-24 12:10:16 [INFO]: Received new configuration from dashboard.
+2024-03-24 12:10:16 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_12-10-16/
+2024-03-24 12:10:16 [INFO]: Created log file logs/sensor/2024-3-24_12-10-16/TC1 Oxidizer tank.log
+2024-03-24 12:10:16 [INFO]: Created log file logs/sensor/2024-3-24_12-10-16/TC2 Combustion chamber.log
+2024-03-24 12:10:16 [INFO]: Created log file logs/sensor/2024-3-24_12-10-16/PT1 Combustion chamber.log
+2024-03-24 12:10:16 [INFO]: Created log file logs/sensor/2024-3-24_12-10-16/PT2 Feedline.log
+2024-03-24 12:10:16 [INFO]: Created log file logs/sensor/2024-3-24_12-10-16/PT3 Injector.log
+2024-03-24 12:10:16 [INFO]: Created log file logs/sensor/2024-3-24_12-10-16/PT4 Oxidizer tank.log
+2024-03-24 12:10:16 [INFO]: Created log file logs/sensor/2024-3-24_12-10-16/Main axial cell.log
+2024-03-24 12:14:51 [INFO]: Initializing slonkboard
+2024-03-24 12:14:52 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 12:14:52 [INFO]: Connection established to controller.
+2024-03-24 12:14:56 [INFO]: Received new configuration from dashboard.
+2024-03-24 12:14:58 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_12-14-56/
+2024-03-24 12:14:58 [INFO]: Created log file logs/sensor/2024-3-24_12-14-56/TC1 Oxidizer tank.log
+2024-03-24 12:14:58 [INFO]: Created log file logs/sensor/2024-3-24_12-14-56/TC2 Combustion chamber.log
+2024-03-24 12:14:58 [INFO]: Created log file logs/sensor/2024-3-24_12-14-56/PT1 Combustion chamber.log
+2024-03-24 12:14:58 [INFO]: Created log file logs/sensor/2024-3-24_12-14-56/PT2 Feedline.log
+2024-03-24 12:14:58 [INFO]: Created log file logs/sensor/2024-3-24_12-14-56/PT3 Injector.log
+2024-03-24 12:14:58 [INFO]: Created log file logs/sensor/2024-3-24_12-14-56/PT4 Oxidizer tank.log
+2024-03-24 12:14:58 [INFO]: Created log file logs/sensor/2024-3-24_12-14-56/Main axial cell.log
+2024-03-24 12:16:37 [INFO]: Initializing slonkboard
+2024-03-24 12:16:39 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 12:16:39 [INFO]: Connection established to controller.
+2024-03-24 12:16:39 [INFO]: Received new configuration from dashboard.
+2024-03-24 12:16:39 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_12-16-39/
+2024-03-24 12:16:39 [INFO]: Created log file logs/sensor/2024-3-24_12-16-39/TC1 Oxidizer tank.log
+2024-03-24 12:16:39 [INFO]: Created log file logs/sensor/2024-3-24_12-16-39/TC2 Combustion chamber.log
+2024-03-24 12:16:39 [INFO]: Created log file logs/sensor/2024-3-24_12-16-39/PT1 Combustion chamber.log
+2024-03-24 12:16:39 [INFO]: Created log file logs/sensor/2024-3-24_12-16-39/PT2 Feedline.log
+2024-03-24 12:16:39 [INFO]: Created log file logs/sensor/2024-3-24_12-16-39/PT3 Injector.log
+2024-03-24 12:16:39 [INFO]: Created log file logs/sensor/2024-3-24_12-16-39/PT4 Oxidizer tank.log
+2024-03-24 12:16:39 [INFO]: Created log file logs/sensor/2024-3-24_12-16-39/Main axial cell.log
+2024-03-24 12:17:13 [INFO]: Initializing slonkboard
+2024-03-24 12:17:16 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 12:17:16 [INFO]: Connection established to controller.
+2024-03-24 12:17:16 [INFO]: Received new configuration from dashboard.
+2024-03-24 12:17:16 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_12-17-16/
+2024-03-24 12:17:16 [INFO]: Created log file logs/sensor/2024-3-24_12-17-16/TC1 Oxidizer tank.log
+2024-03-24 12:17:16 [INFO]: Created log file logs/sensor/2024-3-24_12-17-16/TC2 Combustion chamber.log
+2024-03-24 12:17:16 [INFO]: Created log file logs/sensor/2024-3-24_12-17-16/PT1 Combustion chamber.log
+2024-03-24 12:17:16 [INFO]: Created log file logs/sensor/2024-3-24_12-17-16/PT2 Feedline.log
+2024-03-24 12:17:16 [INFO]: Created log file logs/sensor/2024-3-24_12-17-16/PT3 Injector.log
+2024-03-24 12:17:16 [INFO]: Created log file logs/sensor/2024-3-24_12-17-16/PT4 Oxidizer tank.log
+2024-03-24 12:17:16 [INFO]: Created log file logs/sensor/2024-3-24_12-17-16/Main axial cell.log
+2024-03-24 12:18:01 [INFO]: Connection to controller closed.
+2024-03-24 12:18:06 [INFO]: Initializing slonkboard
+2024-03-24 12:18:07 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 12:18:07 [INFO]: Connection established to controller.
+2024-03-24 12:18:07 [INFO]: Received new configuration from dashboard.
+2024-03-24 12:18:07 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_12-18-7/
+2024-03-24 12:18:07 [INFO]: Created log file logs/sensor/2024-3-24_12-18-7/TC1 Oxidizer tank.log
+2024-03-24 12:18:07 [INFO]: Created log file logs/sensor/2024-3-24_12-18-7/TC2 Combustion chamber.log
+2024-03-24 12:18:07 [INFO]: Created log file logs/sensor/2024-3-24_12-18-7/PT1 Combustion chamber.log
+2024-03-24 12:18:07 [INFO]: Created log file logs/sensor/2024-3-24_12-18-7/PT2 Feedline.log
+2024-03-24 12:18:07 [INFO]: Created log file logs/sensor/2024-3-24_12-18-7/PT3 Injector.log
+2024-03-24 12:18:07 [INFO]: Created log file logs/sensor/2024-3-24_12-18-7/PT4 Oxidizer tank.log
+2024-03-24 12:18:07 [INFO]: Created log file logs/sensor/2024-3-24_12-18-7/Main axial cell.log
+2024-03-24 12:19:14 [INFO]: Initializing slonkboard
+2024-03-24 12:19:16 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 12:19:16 [INFO]: Connection established to controller.
+2024-03-24 12:19:16 [INFO]: Received new configuration from dashboard.
+2024-03-24 12:19:16 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_12-19-16/
+2024-03-24 12:19:16 [INFO]: Created log file logs/sensor/2024-3-24_12-19-16/TC1 Oxidizer tank.log
+2024-03-24 12:19:16 [INFO]: Created log file logs/sensor/2024-3-24_12-19-16/TC2 Combustion chamber.log
+2024-03-24 12:19:16 [INFO]: Created log file logs/sensor/2024-3-24_12-19-16/PT1 Combustion chamber.log
+2024-03-24 12:19:16 [INFO]: Created log file logs/sensor/2024-3-24_12-19-16/PT2 Feedline.log
+2024-03-24 12:19:16 [INFO]: Created log file logs/sensor/2024-3-24_12-19-16/PT3 Injector.log
+2024-03-24 12:19:16 [INFO]: Created log file logs/sensor/2024-3-24_12-19-16/PT4 Oxidizer tank.log
+2024-03-24 12:19:16 [INFO]: Created log file logs/sensor/2024-3-24_12-19-16/Main axial cell.log
+2024-03-24 12:21:00 [INFO]: Initializing slonkboard
+2024-03-24 12:21:01 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 12:21:01 [INFO]: Connection established to controller.
+2024-03-24 12:21:01 [INFO]: Received new configuration from dashboard.
+2024-03-24 12:21:01 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_12-21-1/
+2024-03-24 12:21:01 [INFO]: Created log file logs/sensor/2024-3-24_12-21-1/TC1 Oxidizer tank.log
+2024-03-24 12:21:01 [INFO]: Created log file logs/sensor/2024-3-24_12-21-1/TC2 Combustion chamber.log
+2024-03-24 12:21:01 [INFO]: Created log file logs/sensor/2024-3-24_12-21-1/PT1 Combustion chamber.log
+2024-03-24 12:21:01 [INFO]: Created log file logs/sensor/2024-3-24_12-21-1/PT2 Feedline.log
+2024-03-24 12:21:01 [INFO]: Created log file logs/sensor/2024-3-24_12-21-1/PT3 Injector.log
+2024-03-24 12:21:01 [INFO]: Created log file logs/sensor/2024-3-24_12-21-1/PT4 Oxidizer tank.log
+2024-03-24 12:21:01 [INFO]: Created log file logs/sensor/2024-3-24_12-21-1/Main axial cell.log
+2024-03-24 12:22:27 [INFO]: Initializing slonkboard
+2024-03-24 12:22:29 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 12:22:29 [INFO]: Connection established to controller.
+2024-03-24 12:22:29 [INFO]: Received new configuration from dashboard.
+2024-03-24 12:22:29 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_12-22-29/
+2024-03-24 12:22:29 [INFO]: Created log file logs/sensor/2024-3-24_12-22-29/TC1 Oxidizer tank.log
+2024-03-24 12:22:29 [INFO]: Created log file logs/sensor/2024-3-24_12-22-29/TC2 Combustion chamber.log
+2024-03-24 12:22:29 [INFO]: Created log file logs/sensor/2024-3-24_12-22-29/PT1 Combustion chamber.log
+2024-03-24 12:22:29 [INFO]: Created log file logs/sensor/2024-3-24_12-22-29/PT2 Feedline.log
+2024-03-24 12:22:29 [INFO]: Created log file logs/sensor/2024-3-24_12-22-29/PT3 Injector.log
+2024-03-24 12:22:29 [INFO]: Created log file logs/sensor/2024-3-24_12-22-29/PT4 Oxidizer tank.log
+2024-03-24 12:22:29 [INFO]: Created log file logs/sensor/2024-3-24_12-22-29/Main axial cell.log
+2024-03-24 12:23:39 [INFO]: Initializing slonkboard
+2024-03-24 12:23:40 [INFO]: Connecting to 192.168.0.100:2707
+2024-03-24 12:23:40 [INFO]: Connection established to controller.
+2024-03-24 12:23:40 [INFO]: Received new configuration from dashboard.
+2024-03-24 12:23:40 [INFO]: Sensor output is logged in a new directory: logs/2024-3-24_12-23-40/
+2024-03-24 12:23:40 [INFO]: Created log file logs/sensor/2024-3-24_12-23-40/TC1 Oxidizer tank.log
+2024-03-24 12:23:40 [INFO]: Created log file logs/sensor/2024-3-24_12-23-40/TC2 Combustion chamber.log
+2024-03-24 12:23:40 [INFO]: Created log file logs/sensor/2024-3-24_12-23-40/PT1 Combustion chamber.log
+2024-03-24 12:23:40 [INFO]: Created log file logs/sensor/2024-3-24_12-23-40/PT2 Feedline.log
+2024-03-24 12:23:40 [INFO]: Created log file logs/sensor/2024-3-24_12-23-40/PT3 Injector.log
+2024-03-24 12:23:40 [INFO]: Created log file logs/sensor/2024-3-24_12-23-40/PT4 Oxidizer tank.log
+2024-03-24 12:23:40 [INFO]: Created log file logs/sensor/2024-3-24_12-23-40/Main axial cell.log
+2024-03-24 12:24:29 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":true} to controller.
+2024-03-24 12:35:04 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":true} to controller.
+2024-03-24 12:35:12 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-03-24 12:38:41 [INFO]: Sent command {"type":"Actuate","driver_id":1,"value":false} to controller.
+2024-03-24 13:39:39 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-03-24 13:41:04 [WARN]: -10 seconds until ignition
+2024-03-24 13:41:05 [WARN]: -9 seconds until ignition
+2024-03-24 13:41:06 [WARN]: -8 seconds until ignition
+2024-03-24 13:41:07 [WARN]: -7 seconds until ignition
+2024-03-24 13:41:08 [WARN]: -6 seconds until ignition
+2024-03-24 13:41:09 [WARN]: -5 seconds until ignition
+2024-03-24 13:41:10 [WARN]: -4 seconds until ignition
+2024-03-24 13:41:11 [WARN]: -3 seconds until ignition
+2024-03-24 13:41:12 [WARN]: -2 seconds until ignition
+2024-03-24 13:41:13 [WARN]: -1 seconds until ignition
+2024-03-24 13:41:14 [WARN]: 0 seconds until ignition
+2024-03-24 13:41:14 [WARN]: Igniting.
+2024-03-24 13:41:14 [INFO]: Sent command {"type":"Ignition"} to controller.
+2024-03-24 13:47:24 [INFO]: Sent command {"type":"Actuate","driver_id":2,"value":false} to controller.
+2024-03-24 13:47:35 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":true} to controller.
+2024-03-24 13:49:35 [INFO]: Sent command {"type":"Actuate","driver_id":0,"value":false} to controller.
+2024-03-24 13:49:39 [INFO]: Connection to controller closed.

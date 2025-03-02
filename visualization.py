@@ -29,6 +29,7 @@ class EventPlotter:
         self._data = data
         self._events = events
         self._dpi = dpi
+        self.example = "example"
 
     def plot(self,
              sensor_id: int,
@@ -44,12 +45,15 @@ class EventPlotter:
              color: str = "tab:blue"
              ) -> None:
         time_start = float(self._events[event_id]["secs"])
+        print(time_start)
         time_end = time_start + duration
         sample_start = nearest_sample(self._data, time_start)
+        print(sample_start)
         sample_end = nearest_sample(self._data, time_end)
 
         times_event = [t - time_start for t in self._times[sample_start : sample_end]]
         data_event = self._data[sample_start : sample_end, sensor_id]
+        print(data_event)
 
         plt.figure(dpi=self._dpi)
         plt.plot(times_event, data_event, label=legend, c=color)

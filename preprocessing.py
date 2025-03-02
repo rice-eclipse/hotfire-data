@@ -47,7 +47,40 @@ def import_data(dir: str,
 
     return labels, data
 
-
+"""
+New function for Processing events for HF4 since no timestamps are in console.log 
+"""
+ignition_index = 0
+samples_before_ignition = 0
+def process_events_hf4(dir: str,
+                              drivers: Mapping[int, Mapping[str,str]]
+                              ) -> None:
+    contents = []
+    with open(f"{dir}/data-raw/console.log", 'r') as file:
+        while True:
+            line = file.readline()
+            if len(line) <= 1:
+                break
+            contents.append(line)
+    for message in contents:
+        if "Ignition in 10" in message:
+            print(message, contents.index(message))
+            ignition_index = contents.index(message)
+            break
+    #gets the data log of the number of samples sent to approximate
+    #the 'start time'
+    for idx in range(ignition_index,0,-1):
+        if "samples obtained" in contents[idx]:
+            print(contents[idx])
+            #samples_before_ignition = int(contents[idx].split(" - INFO - ")[1].split(" ")[0])
+            #print(samples_before_ignition)
+    
+    
+    dt_connect = None
+    for message in contents:
+        if "Connection is OPEN" in message:
+            dt_connect = datetime.fromisoformat(message.split(" [INFO]: ", 1)[0])
+            break
 def process_events(dir: str,
                    drivers: Mapping[int, Mapping[str, str]]
                    ) -> None:

@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore all CSV, RAW, LOG, and NPZ files
+*.csv
+*.raw
+*.npz
+*.log
+
 # Distribution / packaging
 .Python
 build/

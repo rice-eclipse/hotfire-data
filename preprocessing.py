@@ -1,6 +1,8 @@
 from typing import Mapping, Tuple, Sequence
 from datetime import datetime
 import numpy as np
+import ast
+from copy import deepcopy
 
 
 EVENT_HEADERS = ["secs", "delta", "elapsed", "type", "info"]
@@ -72,8 +74,8 @@ def process_events_hf4(dir: str,
     for idx in range(ignition_index,0,-1):
         if "samples obtained" in contents[idx]:
             print(contents[idx])
-            #samples_before_ignition = int(contents[idx].split(" - INFO - ")[1].split(" ")[0])
-            #print(samples_before_ignition)
+            samples_before_ignition = int(contents[idx].split(" - INFO - ")[1].split(" ")[0])
+            print(samples_before_ignition)
     
     
     dt_connect = None
@@ -121,6 +123,81 @@ def process_events(dir: str,
         elif "Sent command {\"type\":\"Ignition\"}" in message:
             type = "Ignition"
         elif "Connection to controller closed" in message:
+            type = "Disconnect"
+        else:
+            continue
+
+        events.append({"secs": secs, "elapsed": elapsed, "delta": delta, "type": type, 
+                       "info": info})
+        
+    text = ""
+    for header in EVENT_HEADERS:
+        text += f"{header}, "
+    text = f"{text[:-2]}\n"
+    for event in events:
+        for header in EVENT_HEADERS:
+            text += f"{event[header]}, "
+        text = f"{text[:-2]}\n"
+    
+    with open(f"{dir}/events.csv", 'w') as file:
+        file.write(text)
+
+"""
+Parses the quonkboard's logging message format
+"""
+def process_events_quonkboard(dir: str, 
+                              drivers: Mapping[int, Mapping[str,str]]
+                              ) -> None:
+    contents = []
+    with open(f"{dir}/data-raw/console.log", 'r') as file:
+        i = 0
+        while True:
+            try:
+                line = file.readline()
+            except:
+                pass
+            i+=1
+            if len(line) <= 1:
+                break
+            contents.append(line)
+    print(f" contents: {len(contents)}")
+    #parses the timestamp for when quonkboard connected to labjack
+    dt_start = None
+    for message in contents:
+        if "Listening..." in message:
+            dt_start = datetime.strptime(message.split(" - ", 1)[0], "%Y-%m-%d %H:%M:%S")
+            break
+    
+    #stores all the commands sent to labjack and their timestamps
+    events = []
+    print(len(contents))
+    for message in contents:
+        if "DEBUG" not in message:
+            continue
+        #gets the time elapsed since between each event and when connection was first established with labjack
+        dt_current = datetime.strptime(message.split(" - ", 1)[0], "%Y-%m-%d %H:%M:%S")
+        #print(message.split(" - ", 1)[0])
+        #print(f"current time:{dt_current}")
+        #print(f"connect time:{dt_start}")
+       
+        secs = int((dt_current - dt_start).total_seconds())
+        #print(secs)
+        elapsed = _format_time(secs)
+        delta = _format_time(secs - events[-1]["secs"]) if len(events) > 0 else None
+
+        type = info = ""
+        if "Listening..." in message:
+            type = "Start"
+        elif "connection is OPEN" in message:
+            type = "Connect"
+        elif "Received command: {'type': 'Actuate'," in message:
+            driver_idx = int(ast.literal_eval(message[message.index('{'): message.index('}')+1])['driver_id'])
+            state = str(ast.literal_eval(message[message.index('{'): message.index('}')+1])['value'])
+            info = drivers[driver_idx]["name"]
+            type = drivers[driver_idx][state]
+        elif "Received command: {'type': 'Ignition'" in message:
+            type = "Ignition"
+        elif "connection is CLOSING" in message:
             type = "Disconnect"
         else:
             continue

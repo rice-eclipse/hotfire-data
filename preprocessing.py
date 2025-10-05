@@ -44,6 +44,7 @@ def import_data(dir: str,
     last_valid_time = float(events[-1]["secs"])
 
     for i, sample in enumerate(contents["data"]):
+        print(sample[0])
         if float(sample[0]) > last_valid_time:
             data = data[:i]
 
@@ -195,7 +196,8 @@ def process_events_quonkboard(dir: str,
             state = str(ast.literal_eval(message[message.index('{'): message.index('}')+1])['value'])
             info = drivers[driver_idx]["name"]
             type = drivers[driver_idx][state]
-        elif "Received command: {'type': 'Ignition'" in message:
+        elif "Received command: {'type': 'Proxima Ignition'," in message:
+            print('ye')
             type = "Ignition"
         elif "connection is CLOSING" in message:
             type = "Disconnect"

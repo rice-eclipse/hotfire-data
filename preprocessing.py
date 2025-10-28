@@ -44,7 +44,7 @@ def import_data(dir: str,
     last_valid_time = float(events[-1]["secs"])
 
     for i, sample in enumerate(contents["data"]):
-        print(sample[0])
+        #print(sample[0])
         if float(sample[0]) > last_valid_time:
             data = data[:i]
 
@@ -176,7 +176,10 @@ def process_events_quonkboard(dir: str,
         if "DEBUG" not in message:
             continue
         #gets the time elapsed since between each event and when connection was first established with labjack
-        dt_current = datetime.strptime(message.split(" - ", 1)[0], "%Y-%m-%d %H:%M:%S")
+        try: 
+            dt_current = datetime.strptime(message.split(" - ", 1)[0], "%Y-%m-%d %H:%M:%S")
+        except Exception as e:
+            print(message)
         #print(message.split(" - ", 1)[0])
         #print(f"current time:{dt_current}")
         #print(f"connect time:{dt_start}")

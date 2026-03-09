@@ -88,6 +88,7 @@ def process_events(dir: str,
                    drivers: Mapping[int, Mapping[str, str]]
                    ) -> None:
     contents = []
+    restarted = False
     with open(f"{dir}/data-raw/console.log", 'r') as file:
         while True:
             line = file.readline()
@@ -98,7 +99,9 @@ def process_events(dir: str,
     dt_connect = None
     for message in contents:
         if "Connection established to controller" in message:
-            dt_connect = datetime.fromisoformat(message.split(" [INFO]: ", 1)[0])
+            if (restarted == False):
+                dt_connect = datetime.fromisoformat(message.split(" [INFO]: ", 1)[0])
+                restarted = True
             break
 
     events = []
@@ -199,7 +202,7 @@ def process_events_quonkboard(dir: str,
             state = str(ast.literal_eval(message[message.index('{'): message.index('}')+1])['value'])
             info = drivers[driver_idx]["name"]
             type = drivers[driver_idx][state]
-        elif "Received command: {'type': 'Proxima Ignition'," in message:
+        elif "Received command: {'type': 'Ignition'," in message:
             print('ye')
             type = "Ignition"
         elif "connection is CLOSING" in message:

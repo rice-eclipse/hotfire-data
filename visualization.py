@@ -50,7 +50,7 @@ class EventPlotter:
         sample_start = nearest_sample(self._data, time_start)
         print(sample_start)
         sample_end = nearest_sample(self._data, time_end)
-
+        print(sample_end)
         times_event = [t - time_start for t in self._times[sample_start : sample_end]]
         data_event = self._data[sample_start : sample_end, sensor_id]
         print(data_event)

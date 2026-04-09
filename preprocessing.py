@@ -193,18 +193,26 @@ def process_events_quonkboard(dir: str,
         delta = _format_time(secs - events[-1]["secs"]) if len(events) > 0 else None
 
         type = info = ""
+        payload = None
+        if "Received command:" in message:
+            try:
+                payload = ast.literal_eval(message.split("Received command:", 1)[1].strip())
+            except (SyntaxError, ValueError):
+                payload = None
+
         if "Listening..." in message:
             type = "Start"
         elif "connection is OPEN" in message:
             type = "Connect"
-        elif "Received command: {'type': 'Actuate'," in message:
-            driver_idx = int(ast.literal_eval(message[message.index('{'): message.index('}')+1])['driver_id'])
-            state = str(ast.literal_eval(message[message.index('{'): message.index('}')+1])['value'])
+        elif isinstance(payload, dict) and payload.get("type") == "Actuate":
+            driver_idx = int(payload["driver_id"])
+            state = str(payload["value"])
             info = drivers[driver_idx]["name"]
             type = drivers[driver_idx][state]
-        elif "Received command: {'type': 'Ignition'," in message:
-            print('ye')
+        elif isinstance(payload, dict) and payload.get("type") == "Ignition":
             type = "Ignition"
+        elif isinstance(payload, dict) and payload.get("type") == "CancelIgnition":
+            type = "CancelIgnition"
         elif "connection is CLOSING" in message:
             type = "Disconnect"
         else:

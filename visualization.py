@@ -45,7 +45,7 @@ class EventPlotter:
              color: str = "tab:blue"
              ) -> None:
         time_start = float(self._events[event_id]["secs"])
-        print(time_start)
+        print(self._events[event_id]["info"])
         time_end = time_start + duration
         sample_start = nearest_sample(self._data, time_start)
         print(sample_start)
@@ -80,7 +80,7 @@ class EventPlotter:
                   legend: str = '',
                   color: str = "tab:orange"
                   ) -> None:
-        time_start = float(self._events[event_id]["secs"])
+        time_start = float(self._events[event_id]["secs"]) -10.0
         time_end = time_start + duration
         sample_start = nearest_sample(self._data, time_start)
         sample_end = nearest_sample(self._data, time_end)

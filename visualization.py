@@ -53,7 +53,9 @@ class EventPlotter:
         print(sample_end)
         times_event = [t - time_start for t in self._times[sample_start : sample_end]]
         data_event = self._data[sample_start : sample_end, sensor_id]
-        print(data_event)
+        print("cc_pt")
+        print(self._data[sample_start : sample_end, 1])
+        #print(data_event)
 
         plt.figure(dpi=self._dpi)
         plt.plot(times_event, data_event, label=legend, c=color)
